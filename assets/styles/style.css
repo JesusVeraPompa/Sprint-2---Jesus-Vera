@@ -145,7 +145,34 @@ hr{
     padding: 20px;
 }
 
-/*---------------------- Inicio Main aboutUs.html ----------------------*/
+/*---------------------- Fin Main aboutUs.html ----------------------*/
+
+/*---------------------- Inicio Main contact.html ----------------------*/
+.banner-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion-contact{
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.datos-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.datos-contact > h2{
+    padding: 10px;
+    text-align: center;
+}
+/*---------------------- Fin Main contact.html ----------------------*/
 
 /*---------------------- Footer ----------------------*/
 footer {
