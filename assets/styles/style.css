@@ -7,6 +7,7 @@
 
 /*---------------------- Header ----------------------*/
 header {
+    margin: 10px;
     min-height: 15vh;
     background-color: #f5b7b1;
     display: flex;
@@ -52,13 +53,15 @@ header {
 
 /*---------------------- Main ----------------------*/
 main {
+    margin: 10px;
     min-height: 80vh;
     background-color: #fdedec;
     padding: 20px;
 }
 
+/*---------------------- Inicio Main index.html ----------------------*/
 /*---------------- Banner ----------------*/
-.banner {
+.banner-index {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -68,29 +71,85 @@ main {
     object-fit: contain;
     padding: 20px;
 }
-
 /*---------------- Parrafo ----------------*/
-.cuerpo {
+.cuerpo-index {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}
+.dentro-cuerpo-index {
+    padding: 20px;
+}
+.parrafo-index {
+    font-size: 22px;
+    text-align: center;
+}
+.img-parrafo-index {
+    width: 70%;
+    min-width: 200px;
+    object-fit: contain;
+    padding: 20px;
+}
+/*---------------------- Fin Main index.html ----------------------*/
+
+/*---------------------- Inicio Main aboutUs.html ----------------------*/
+.descripcion-sobre-nosotros{
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.dentro-cuerpo {
-    width: 500px;
+.cuerpo-completo-aboutUs{
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}
+
+.cuerpo-aboutUs{
+    
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+}
+
+.parrafo-sobre-nosotros{
+    font-size: 22px;
+    text-align: center;
     padding: 20px;
 }
-.parrafo {
-    font-size: 22px;
-    text-align: right;
+
+.dentro-cuerpo-img-aboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.img-parrafo {
+
+.img-parrafo-aboutUs {
     width: 350px;
+    max-width: 100%;    
+    object-fit: contain;
+    padding: 20px;
 }
+
+/*---------------------- Inicio Main aboutUs.html ----------------------*/
 
 /*---------------------- Footer ----------------------*/
 footer {
+    margin: 10px;
     min-height: 5vh;
     background-color: #f5b7b1;
     display: flex;
