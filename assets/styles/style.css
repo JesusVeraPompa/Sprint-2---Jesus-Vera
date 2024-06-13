@@ -189,6 +189,57 @@ td {
 }
 /*---------------------- Fin Main information.html ----------------------*/
 
+/*---------------------- Inicio Main beneficiosTips.html ----------------------*/
+.title-beneficiosTips {
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-completo-beneficiosTips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.list-beneficiosTips {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div-beneficiosTips {
+    padding: 20px;
+}
+
+.img-beneficiosTips {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+ol > h3 {
+    max-width: 350px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+ol > li {
+    max-width: 350px;
+    font-size: 20px;
+}
+
+/*---------------------- Fin Main beneficiosTips.html ----------------------*/
+
 /*---------------------- Footer ----------------------*/
 footer {
     margin: 10px;
@@ -202,11 +253,4 @@ footer {
 footer > p {
     padding: 20px;
     font-size: 20px;
-}
-.whatsapp {
-    width: 75px;
-    height: 75px;
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
 }
