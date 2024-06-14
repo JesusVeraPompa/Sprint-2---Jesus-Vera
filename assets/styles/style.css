@@ -240,6 +240,56 @@ ol > li {
 
 /*---------------------- Fin Main beneficiosTips.html ----------------------*/
 
+/*---------------------- Inicio Main raffle.html ----------------------*/
+.div-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.maps {
+    padding: 20px;
+}
+.maps > p {
+    padding: 20px;
+    font-size: 18px;
+}
+.formulario {
+    padding: 40px;
+    width: 450px;
+}
+form {
+    padding: 20px;
+    border: 1px solid black;
+}
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
+    padding: 20px;
+}
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2px;
+}
+textarea {
+    height: 10em;
+    width: 325px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submit{
+    padding: 4px;
+}
+/*---------------------- Fin Main raffle.html ----------------------*/
+
 /*---------------------- Footer ----------------------*/
 footer {
     margin: 10px;
