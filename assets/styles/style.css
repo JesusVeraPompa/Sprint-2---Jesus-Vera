@@ -109,6 +109,43 @@ header {
 
 /*---------------------- Inicio Main aboutUs.html ----------------------*/
 
+.main-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+.main-section-aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.section-aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.section-aboutUs-img>img{
+    width: 200px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.section-aboutUs-parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /*---------------------- Fin Main aboutUs.html ----------------------*/
 
 /*---------------------- Inicio Main contact.html ----------------------*/
@@ -155,6 +192,10 @@ footer {
     /*---------------------- Fin Main index.html ----------------------*/
 
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
+
+    .section-aboutUs-parrafo{
+        padding: 10px 100px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -194,6 +235,15 @@ footer {
     /*---------------------- Fin Main index.html ----------------------*/
 
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
+
+    .section-aboutUs{
+        flex-direction: row;
+        padding: 0px 100px;
+    }
+
+    .section-aboutUs-parrafo{
+        padding: 0px 20px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -225,4 +275,7 @@ footer {
     /*---------------------- Fin Main index.html ----------------------*/
 
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
+    .section-aboutUs{
+        padding: 0px 300px;
+    }
 }
