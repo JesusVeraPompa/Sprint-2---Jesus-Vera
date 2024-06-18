@@ -96,7 +96,7 @@ main {
 .img-parrafo-index {
     width: 200px;
 }
-/*---------------------- Fin Main index.html ----------------------*/
+/*---------------------- Fin Main index.html ---------------------------*/
 /*---------------------- Inicio Main aboutUs.html ----------------------*/
 .main-titulo {
     display: flex;
@@ -132,7 +132,7 @@ main {
     align-items: center;
     text-align: center;
 }
-/*---------------------- Fin Main aboutUs.html ----------------------*/
+/*---------------------- Fin Main aboutUs.html -------------------------*/
 /*---------------------- Inicio Main contact.html ----------------------*/
 .main-section-contact {
     display: flex;
@@ -166,9 +166,9 @@ main {
     padding: 20px 10px;
     text-align: center;
 }
-/*---------------------- Fin Main contact.html ----------------------*/
+/*---------------------- Fin Main contact.html -----------------------------*/
 /*---------------------- Inicio Main information.html ----------------------*/
-.main-table-info{
+.main-table-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,20 +176,21 @@ main {
     padding: 20px 10px;
     text-align: center;
 }
-.main-table-info>table{
+.main-table-info > table {
     font-size: 20px;
     padding: 10px;
     border-spacing: 0;
     border-collapse: collapse;
 }
 
-th, td{
+th,
+td {
     border: 1px solid black;
     padding: 10px;
 }
-/*---------------------- Fin Main information.html ----------------------*/
+/*---------------------- Fin Main information.html ----------------------------*/
 /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
-.main-div-beneficiosTips{
+.main-div-beneficiosTips {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +198,7 @@ th, td{
     padding: 20px 10px;
     text-align: center;
 }
-.list-beneficiosTips{
+.list-beneficiosTips {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,18 +209,57 @@ th, td{
     width: 90%;
     margin: 10px;
 }
-.div-list-img>img{
+.div-list-img > img {
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
-.div-list-lista>ol>li{
+.div-list-lista > ol > li {
     text-align: start;
 }
 /*---------------------- Fin Main beneficiosTips.html ----------------------*/
-/*---------------------- Inicio Main raffle.html ----------------------*/
+/*---------------------- Inicio Main raffle.html ---------------------------*/
+.main-div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+.mapa > p {
+    font-size: 20px;
+    padding: 20px;
+}
+.mapa-google-map {
+    width: 90vw;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario > form > fieldset > div {
+    padding: 5px;
+}
+.radio {
+    padding: 10px;
+}
+fieldset {
+    padding: 20px;
+}
+legend {
+    padding: 5px;
+}
 /*---------------------- Fin Main raffle.html ----------------------*/
-/*---------------------- Footer ----------------------*/
+/*---------------------- Footer ------------------------------------*/
 footer {
     background-color: #f5b7b1;
     display: flex;
@@ -239,29 +279,30 @@ footer {
 /*-----------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
-    /*---------------------- Inicio Main index.html ----------------------*/
+    /*---------------------- Inicio Main index.html ------------------------*/
     .main-cuerpo-index {
         padding: 20px 75px;
     }
-    /*---------------------- Fin Main index.html ----------------------*/
+    /*---------------------- Fin Main index.html ---------------------------*/
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
     .section-aboutUs-parrafo {
         padding: 10px 100px;
     }
-    /*---------------------- Fin Main aboutUs.html ----------------------*/
+    /*---------------------- Fin Main aboutUs.html -------------------------*/
     /*---------------------- Inicio Main contact.html ----------------------*/
-    /*---------------------- Fin Main contact.html ----------------------*/
-    /*---------------------- Inicio Main information.html ----------------------*/
-    .main-table-info>table{
+    /*---------------------- Fin Main contact.html -------------------------*/
+    /*---------------------- Inicio Main information.html ------------------*/
+    .main-table-info > table {
         font-size: 24px;
     }
     /*---------------------- Fin Main information.html ----------------------*/
-    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
-    .list-beneficiosTips{
+    /*---------------------- Inicio Main beneficiosTips.html ----------------*/
+    .list-beneficiosTips {
         width: 70%;
     }
-    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
-    /*---------------------- Inicio Main raffle.html ----------------------*/
+    /*---------------------- Fin Main beneficiosTips.html -------------------*/
+    /*---------------------- Inicio Main raffle.html ------------------------*/
+    /*---------------------- Fin Main raffle.html ---------------------------*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -276,7 +317,7 @@ footer {
     .navbar-link > a {
         width: 155px;
     }
-    /*---------------------- Inicio Main index.html ----------------------*/
+    /*---------------------- Inicio Main index.html ------------------------*/
     .main-banner-index {
         padding: 10px 50px;
     }
@@ -290,7 +331,7 @@ footer {
         object-fit: cover;
         object-position: 10% 30%;
     }
-    /*---------------------- Fin Main index.html ----------------------*/
+    /*---------------------- Fin Main index.html ---------------------------*/
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
     .section-aboutUs {
         flex-direction: row;
@@ -299,7 +340,7 @@ footer {
     .section-aboutUs-parrafo {
         padding: 0px 20px;
     }
-    /*---------------------- Fin Main aboutUs.html ----------------------*/
+    /*---------------------- Fin Main aboutUs.html -------------------------*/
     /*---------------------- Inicio Main contact.html ----------------------*/
     .main-descripcion-contact {
         padding: 20px 50px;
@@ -309,19 +350,27 @@ footer {
         justify-content: space-between;
         width: 80%;
     }
-    /*---------------------- Fin Main contact.html ----------------------*/
-    /*---------------------- Inicio Main information.html ----------------------*/
-    .main-table-info>table{
+    /*---------------------- Fin Main contact.html --------------------------*/
+    /*---------------------- Inicio Main information.html -------------------*/
+    .main-table-info > table {
         font-size: 26px;
     }
     /*---------------------- Fin Main information.html ----------------------*/
-    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
-    .list-beneficiosTips{
+    /*---------------------- Inicio Main beneficiosTips.html ----------------*/
+    .list-beneficiosTips {
         flex-direction: row;
         justify-content: space-evenly;
     }
-    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
-    /*---------------------- Inicio Main raffle.html ----------------------*/
+    /*---------------------- Fin Main beneficiosTips.html -------------------*/
+    /*---------------------- Inicio Main raffle.html ------------------------*/
+    .main-div {
+        flex-direction: row;
+    }
+    .mapa-google-map {
+        max-width: 500px;
+        padding: 20px;
+    }
+    /*---------------------- Fin Main raffle.html ---------------------------*/
 }
 
 @media screen and (min-width: 1440px) {
@@ -336,27 +385,35 @@ footer {
     .logo {
         width: 100px;
     }
-    /*---------------------- Inicio Main index.html ----------------------*/
+    /*---------------------- Inicio Main index.html -----------------------*/
     .main-banner-index {
         padding: 10px 100px;
     }
     .main-cuerpo-index {
         padding: 20px 300px;
     }
-    /*---------------------- Fin Main index.html ----------------------*/
+    /*---------------------- Fin Main index.html ---------------------------*/
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
     .section-aboutUs {
         padding: 0px 300px;
     }
-    /*---------------------- Fin Main aboutUs.html ----------------------*/
+    /*---------------------- Fin Main aboutUs.html -------------------------*/
     /*---------------------- Inicio Main contact.html ----------------------*/
-    /*---------------------- Fin Main contact.html ----------------------*/
-    /*---------------------- Inicio Main information.html ----------------------*/
-    /*---------------------- Fin Main information.html ----------------------*/
-    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
-    .list-beneficiosTips{
+    /*---------------------- Fin Main contact.html -------------------------*/
+    /*---------------------- Inicio Main information.html ------------------*/
+    /*---------------------- Fin Main information.html ---------------------*/
+    /*---------------------- Inicio Main beneficiosTips.html ---------------*/
+    .list-beneficiosTips {
         width: 50%;
     }
-    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
-    /*---------------------- Inicio Main raffle.html ----------------------*/
+    /*---------------------- Fin Main beneficiosTips.html ------------------*/
+    /*---------------------- Inicio Main raffle.html -----------------------*/
+    .main-div {
+        flex-direction: row;
+    }
+    .mapa-google-map {
+        max-width: 700px;
+        padding: 20px;
+    }
+    /*---------------------- Fin Main raffle.html ---------------------------*/
 }
