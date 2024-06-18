@@ -150,6 +150,43 @@ header {
 
 /*---------------------- Inicio Main contact.html ----------------------*/
 
+.main-section-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.main-banner-contact>img{
+    width: 80vw;
+    object-fit: cover;
+}
+
+.main-descripcion-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.main-descripcion-contact>p{
+    font-size: 20px;
+}
+
+.main-datos-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-datos-contact{
+    padding: 20px 10px;
+    text-align: center;
+}
 /*---------------------- Fin Main contact.html ----------------------*/
 
 /*---------------------- Inicio Main information.html ----------------------*/
@@ -196,6 +233,10 @@ footer {
     .section-aboutUs-parrafo{
         padding: 10px 100px;
     }
+
+    /*---------------------- Fin Main aboutUs.html ----------------------*/
+
+    /*---------------------- Inicio Main contact.html ----------------------*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -244,6 +285,21 @@ footer {
     .section-aboutUs-parrafo{
         padding: 0px 20px;
     }
+
+    /*---------------------- Fin Main aboutUs.html ----------------------*/
+
+    /*---------------------- Inicio Main contact.html ----------------------*/
+
+    .main-descripcion-contact{
+        padding: 20px 50px;
+    }
+
+    .main-datos-div{
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -275,7 +331,12 @@ footer {
     /*---------------------- Fin Main index.html ----------------------*/
 
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
+    
     .section-aboutUs{
         padding: 0px 300px;
     }
+
+    /*---------------------- Fin Main aboutUs.html ----------------------*/
+
+    /*---------------------- Inicio Main contact.html ----------------------*/
 }
