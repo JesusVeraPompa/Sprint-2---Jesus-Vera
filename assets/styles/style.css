@@ -4,14 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .layout {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
+    min-height: 100vh;
 }
-
 /*---------------------- Header ----------------------*/
 header {
     display: flex;
@@ -20,8 +19,8 @@ header {
     align-items: stretch;
     padding: 10px;
     background-color: #f5b7b1;
+    min-height: 15vh;
 }
-
 .header-navbar {
     display: flex;
     flex-direction: column-reverse;
@@ -29,14 +28,12 @@ header {
     align-items: center;
     padding: 10px;
 }
-
 .navbar-link {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-
 .navbar-link > a {
     text-decoration: none;
     color: white;
@@ -52,11 +49,9 @@ header {
     text-align: center;
     display: inline-block;
 }
-
 .logo {
     width: 150px;
 }
-
 .header-titulo {
     display: flex;
     flex-direction: column;
@@ -65,11 +60,13 @@ header {
     background-color: #f2d7d5;
     padding: 10px;
 }
-
 .header-titulo > h1 {
     text-align: center;
 }
-
+/*------------------------------ Main -------------------------------*/
+main {
+    flex-grow: 1;
+}
 /*---------------------- Inicio Main index.html ----------------------*/
 .main-banner-index {
     display: flex;
@@ -78,12 +75,10 @@ header {
     align-items: center;
     padding: 5px;
 }
-
 .banner-index-img {
     width: 100%;
     object-fit: cover;
 }
-
 .main-cuerpo-index {
     display: flex;
     flex-direction: column-reverse;
@@ -91,25 +86,19 @@ header {
     align-items: center;
     padding: 20px 10px;
 }
-
 .dentro-cuerpo-index {
     padding: 10px;
 }
-
 .parrafo-index {
     text-align: center;
     font-size: 18px;
 }
-
 .img-parrafo-index {
     width: 200px;
 }
-
 /*---------------------- Fin Main index.html ----------------------*/
-
 /*---------------------- Inicio Main aboutUs.html ----------------------*/
-
-.main-titulo{
+.main-titulo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,29 +106,26 @@ header {
     padding: 20px 10px;
     text-align: center;
 }
-.main-section-aboutUs{
+.main-section-aboutUs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
 }
-
-.section-aboutUs{
+.section-aboutUs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
 }
-
-.section-aboutUs-img>img{
+.section-aboutUs-img > img {
     width: 200px;
     object-fit: cover;
     padding: 10px;
 }
-
-.section-aboutUs-parrafo{
+.section-aboutUs-parrafo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,23 +133,19 @@ header {
     text-align: center;
 }
 /*---------------------- Fin Main aboutUs.html ----------------------*/
-
 /*---------------------- Inicio Main contact.html ----------------------*/
-
-.main-section-contact{
+.main-section-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
 }
-
-.main-banner-contact>img{
+.main-banner-contact > img {
     width: 80vw;
     object-fit: cover;
 }
-
-.main-descripcion-contact{
+.main-descripcion-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,36 +153,45 @@ header {
     padding: 20px 10px;
     text-align: center;
 }
-
-.main-descripcion-contact>p{
+.main-descripcion-contact > p {
     font-size: 20px;
 }
-
-.main-datos-div{
+.main-datos-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.main-datos-contact{
+.main-datos-contact {
     padding: 20px 10px;
     text-align: center;
 }
 /*---------------------- Fin Main contact.html ----------------------*/
-
 /*---------------------- Inicio Main information.html ----------------------*/
+.main-table-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+.main-table-info>table{
+    font-size: 20px;
+    padding: 10px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
 
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
 /*---------------------- Fin Main information.html ----------------------*/
-
 /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
-
 /*---------------------- Fin Main beneficiosTips.html ----------------------*/
-
 /*---------------------- Inicio Main raffle.html ----------------------*/
-
 /*---------------------- Fin Main raffle.html ----------------------*/
-
 /*---------------------- Footer ----------------------*/
 footer {
     background-color: #f5b7b1;
@@ -208,6 +199,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-height: 5vh;
 }
 .footer-titulo {
     padding: 20px;
@@ -221,122 +213,107 @@ footer {
 
 @media screen and (min-width: 768px) {
     /*---------------------- Inicio Main index.html ----------------------*/
-
     .main-cuerpo-index {
         padding: 20px 75px;
     }
-
     /*---------------------- Fin Main index.html ----------------------*/
-
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
-
-    .section-aboutUs-parrafo{
+    .section-aboutUs-parrafo {
         padding: 10px 100px;
     }
-
     /*---------------------- Fin Main aboutUs.html ----------------------*/
-
     /*---------------------- Inicio Main contact.html ----------------------*/
+    /*---------------------- Fin Main contact.html ----------------------*/
+    /*---------------------- Inicio Main information.html ----------------------*/
+    .main-table-info>table{
+        font-size: 24px;
+    }
+    /*---------------------- Fin Main information.html ----------------------*/
+    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
 }
 
 @media screen and (min-width: 1024px) {
     /*---------------------- Header ----------------------*/
-
     .header-navbar {
         flex-direction: column-reverse;
         justify-content: space-between;
     }
-
     .navbar-link {
         flex-direction: row;
     }
-
     .navbar-link > a {
         width: 155px;
     }
-
     /*---------------------- Inicio Main index.html ----------------------*/
-
     .main-banner-index {
         padding: 10px 50px;
     }
-
     .main-cuerpo-index {
         padding: 20px 150px;
         flex-direction: row;
     }
-
     .banner-index-img {
         width: 100%;
         height: 400px;
         object-fit: cover;
         object-position: 10% 30%;
     }
-
     /*---------------------- Fin Main index.html ----------------------*/
-
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
-
-    .section-aboutUs{
+    .section-aboutUs {
         flex-direction: row;
         padding: 0px 100px;
     }
-
-    .section-aboutUs-parrafo{
+    .section-aboutUs-parrafo {
         padding: 0px 20px;
     }
-
     /*---------------------- Fin Main aboutUs.html ----------------------*/
-
     /*---------------------- Inicio Main contact.html ----------------------*/
-
-    .main-descripcion-contact{
+    .main-descripcion-contact {
         padding: 20px 50px;
     }
-
-    .main-datos-div{
+    .main-datos-div {
         flex-direction: row;
-        justify-content:space-between;
-        align-items: center;
+        justify-content: space-between;
         width: 80%;
     }
+    /*---------------------- Fin Main contact.html ----------------------*/
+    /*---------------------- Inicio Main information.html ----------------------*/
+    .main-table-info>table{
+        font-size: 26px;
+    }
+    /*---------------------- Fin Main information.html ----------------------*/
+    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
 }
 
 @media screen and (min-width: 1440px) {
     /*---------------------- Header ----------------------*/
-
     .header-navbar {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .navbar-link {
         flex-direction: row;
     }
-
     .logo {
         width: 100px;
     }
-
     /*---------------------- Inicio Main index.html ----------------------*/
-
     .main-banner-index {
         padding: 10px 100px;
     }
-
     .main-cuerpo-index {
         padding: 20px 300px;
     }
-
     /*---------------------- Fin Main index.html ----------------------*/
-
     /*---------------------- Inicio Main aboutUs.html ----------------------*/
-    
-    .section-aboutUs{
+    .section-aboutUs {
         padding: 0px 300px;
     }
-
     /*---------------------- Fin Main aboutUs.html ----------------------*/
-
     /*---------------------- Inicio Main contact.html ----------------------*/
+    /*---------------------- Fin Main contact.html ----------------------*/
+    /*---------------------- Inicio Main information.html ----------------------*/
+    /*---------------------- Fin Main information.html ----------------------*/
+    /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
 }
