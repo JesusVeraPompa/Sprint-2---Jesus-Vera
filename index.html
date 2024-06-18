@@ -8,51 +8,63 @@
         <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon" />
     </head>
     <body>
-        <!--------------------------------- Header --------------------------------->
-        <header>
-            <nav class="navbar">
-                <div class="link-nav">
-                    <a href="./index.html">Inicio</a>
-                    <a href="./pages/aboutUs.html">Sobre Nosotros</a>
-                    <a href="./pages/contact.html">Contacto</a>
-                    <a href="./pages/information.html">Información</a>
-                    <a href="./pages/beneficiosTips.html">Beneficios</a>
-                    <a href="./pages/raffle.html">Sorteo</a>
+        <div class="layout">
+            <!--------------------------------- Header --------------------------------->
+            <header>
+                <nav class="header-navbar">
+                    <!------------------------- Menu --------------------------------->
+                    <div class="navbar-link">
+                        <a href="./index.html">Inicio</a>
+                        <a href="./pages/aboutUs.html">Sobre Nosotros</a>
+                        <a href="./pages/contact.html">Contacto</a>
+                        <a href="./pages/information.html">Información</a>
+                        <a href="./pages/beneficiosTips.html">Beneficios</a>
+                        <a href="./pages/raffle.html">Sorteo</a>
+                    </div>
+                    <!------------------------- Logo --------------------------------->
+                    <div class="navbar-logo">
+                        <img class="logo" src="./assets/img/logo.png" alt="" />
+                    </div>
+                </nav>
+                <!----------------------- Titulo de la Pagina ------------------------>
+                <div class="header-titulo">
+                    <h1>Snowy Cream - Inicio</h1>
                 </div>
-
-                <div class="logo-nav">
-                    <img class="logo" src="./assets/img/logo.png" alt="" />
+            </header>
+            <!--------------------------------- Main --------------------------------->
+            <main>
+                <!--------------------------- Banner --------------------------------->
+                <div class="main-banner-index">
+                    <img class="banner-index-img" src="./assets/img/icecream.jpg" alt="" />
                 </div>
-            </nav>
-
-            <div class="titulo">
-                <h1>Snowy Cream - Inicio</h1>
-            </div>
-        </header>
-        <!--------------------------------- Main --------------------------------->
-        <main>
-            <div class="banner-index">
-                <img class="banner-img" src="./assets/img/icecream.jpg" alt="" />
-            </div>
-            <div class="cuerpo-index">
-                <div class="dentro-cuerpo-index">
-                    <p class="parrafo-index">
-                        Nuestros postres de chocolate y fresa es una delicia irresistible que
-                        combina capas esponjosas de bizcocho de chocolate con un relleno cremoso de
-                        fresas frescas y nata montada. El bizcocho, húmedo y rico, se elabora con
-                        cacao de alta calidad, aportando un sabor profundo e intenso. Las fresas,
-                        jugosas y dulces, se intercalan en cada capa, proporcionando un contraste
-                        fresco y afrutado.
-                    </p>
-                </div>
-                <div class="dentro-cuerpo-index">
-                    <img src="./assets/img/strawberry.jpg" alt="" class="img-parrafo-index" />
-                </div>
-            </div>
-        </main>
-        <!--------------------------------- Footer --------------------------------->
-        <footer>
-            <p>© Copyright 2024 Snowy Cream. Todos los Derechos Reservados. Creado por: Jesus Vera</p>
-        </footer>
+                <!--------------------------- Contenido ------------------------------>
+                <section class="main-cuerpo-index">
+                        <div class="dentro-cuerpo-index">
+                            <p class="parrafo-index">
+                                Nuestros postres de chocolate y fresa es una delicia irresistible
+                                que combina capas esponjosas de bizcocho de chocolate con un relleno
+                                cremoso de fresas frescas y nata montada. El bizcocho, húmedo y
+                                rico, se elabora con cacao de alta calidad, aportando un sabor
+                                profundo e intenso. Las fresas, jugosas y dulces, se intercalan en
+                                cada capa, proporcionando un contraste fresco y afrutado.
+                            </p>
+                        </div>
+                        <div class="dentro-cuerpo-index">
+                            <img
+                                src="./assets/img/strawberry.jpg"
+                                alt=""
+                                class="img-parrafo-index"
+                            />
+                        </div>
+                </section>
+            </main>
+            <!--------------------------------- Footer --------------------------------->
+            <footer>
+                <h3 class="footer-titulo">
+                    © Copyright 2024 Snowy Cream. Todos los Derechos Reservados. Creado por: Jesus
+                    Vera
+                </h3>
+            </footer>
+        </div>
     </body>
 </html>
