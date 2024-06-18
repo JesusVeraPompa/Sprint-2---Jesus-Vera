@@ -189,6 +189,33 @@ th, td{
 }
 /*---------------------- Fin Main information.html ----------------------*/
 /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
+.main-div-beneficiosTips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+.list-beneficiosTips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    margin: 10px;
+}
+.div-list-img>img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.div-list-lista>ol>li{
+    text-align: start;
+}
 /*---------------------- Fin Main beneficiosTips.html ----------------------*/
 /*---------------------- Inicio Main raffle.html ----------------------*/
 /*---------------------- Fin Main raffle.html ----------------------*/
@@ -230,6 +257,11 @@ footer {
     }
     /*---------------------- Fin Main information.html ----------------------*/
     /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
+    .list-beneficiosTips{
+        width: 70%;
+    }
+    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
+    /*---------------------- Inicio Main raffle.html ----------------------*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -284,6 +316,12 @@ footer {
     }
     /*---------------------- Fin Main information.html ----------------------*/
     /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
+    .list-beneficiosTips{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
+    /*---------------------- Inicio Main raffle.html ----------------------*/
 }
 
 @media screen and (min-width: 1440px) {
@@ -316,4 +354,9 @@ footer {
     /*---------------------- Inicio Main information.html ----------------------*/
     /*---------------------- Fin Main information.html ----------------------*/
     /*---------------------- Inicio Main beneficiosTips.html ----------------------*/
+    .list-beneficiosTips{
+        width: 50%;
+    }
+    /*---------------------- Fin Main beneficiosTips.html ----------------------*/
+    /*---------------------- Inicio Main raffle.html ----------------------*/
 }
